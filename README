@@ -3,6 +3,52 @@ dwm - dynamic window manager
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
+Zeal's Changes
+--------------
+- The following patches are applied (in no specific order):
+  - hide vacant tags
+  - systray
+  - pertag 
+  - centeredmaster
+  - nametag (rename tag)
+  - tag arrow patch
+  - center
+  - swallow
+
+- Dedicated tags for (2) Music and (7) Videos
+- Dedicated unamed tag for (9) web browsing 
+- Disabled sloppy focus -- must click window to shift focus
+
+
+Extra Commands 
+--------------
+These are extra commands from the applied patches:
+
+- Modkey + [ => move to tag on the left
+- Modkey + ] => move to tag on the right
+- Modkey + c => change layout to centeredmaster
+- Modkey + n => rename current tag
+- Modkey + p => show current clipboard to statusbar
+- Shift + F12 => view all tags (changed from Modkey + 0)
+- Multimedia keys: Volume Up, Volume Down, Volume Mute
+
+Scripts and Fonts
+----------------
+Feel free to change the defaul fonts or you may choose to install the included fonts. The following scripts are included but not required:
+- vol.sh (change volume levels)
+- peek_clip.sh (see the current clipboard selection on the status bar)
+- screenshot.sh (take a screenshit)
+
+Extra Programs
+--------------
+Apart from dmenu, these extra programs are used:
+
+- xbacklight (control backlight for laptops)
+- xautolock (timed screen locker)
+- slock (screen locker)
+- thunar (file manager)
+
+
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
